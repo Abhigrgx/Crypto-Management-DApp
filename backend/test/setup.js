@@ -1,0 +1,11 @@
+process.env.PORT = process.env.PORT || "4001";
+process.env.JWT_ACCESS_SECRET = process.env.JWT_ACCESS_SECRET || "1234567890123456";
+process.env.JWT_REFRESH_SECRETS = process.env.JWT_REFRESH_SECRETS || "abcdefghijklmnop,ponmlkjihgfedcba";
+process.env.JWT_ACCESS_EXPIRES = process.env.JWT_ACCESS_EXPIRES || "15m";
+process.env.JWT_REFRESH_EXPIRES = process.env.JWT_REFRESH_EXPIRES || "7d";
+process.env.RPC_ETHEREUM = process.env.RPC_ETHEREUM || "https://ethereum-sepolia-rpc.publicnode.com";
+process.env.RPC_POLYGON = process.env.RPC_POLYGON || "https://rpc-amoy.polygon.technology";
+process.env.SIWE_URI = process.env.SIWE_URI || "http://localhost:5173";
+process.env.SIWE_STATEMENT = process.env.SIWE_STATEMENT || "Sign in to CryptoVault.";
+process.env.VAULT_ADDRESS = process.env.VAULT_ADDRESS || "0x0000000000000000000000000000000000000001";
+process.env.COINGECKO_API = process.env.COINGECKO_API || "https://api.coingecko.com/api/v3";
